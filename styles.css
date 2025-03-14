@@ -1,0 +1,1177 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Poppies;
+    font-weight: 300;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+   
+
+}
+
+nav >.logo {
+    display:flex;
+    align-items:self-start;
+    
+}
+
+.logo img {
+    position: sticky;
+    width: 40px;
+   
+   
+}
+
+.logo span {
+    font-weight: 700;
+    margin:1em;
+    
+    
+  
+} 
+
+/* header */
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    padding: 7px 0px;   
+}
+
+nav > ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    align-items:self-end;   
+}
+
+nav li {
+    font-weight: 700;
+    padding: 15px 20px;   
+}
+
+nav li:hover {
+    color: #2e7d5a;
+    cursor: pointer;
+}
+
+.special-btn {
+    text-align: center;
+    border: 1px solid rgb(238, 234, 234);
+    border-radius: 3rem;
+    background-color: transparent;
+    transition: cursur 1.0s, color 1.0s, background-color 1.0s;
+}
+
+.special-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#fixed {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 150px;
+    height: 30px;
+    font-weight: 150;
+    font-size: 15px;
+    background-color: #5865f2;
+    color:white;
+    border: none;
+    border-radius: 2rem;
+    z-index: 1;
+    transition: background-color 0.5s, cursor 0.5s;    
+}
+
+#fixed:hover{
+    background-color: #5865f2e0;
+    cursor: pointer;
+}
+
+
+section {
+    max-width: 90vw;
+    margin: 3rem auto;
+}
+
+/*Section 1 */
+.section1 span {
+    color: #2c9779;
+    font-family: Imperical Script;
+    font-size: 50px;
+    font-style: italic;
+    text-align: justify;
+    
+
+}
+
+.section1 h1{
+    font-size: 50px;
+    font-family:Georgia, serif;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    gap: 3rem;
+}
+
+.btns button {
+    height: 50px;
+    font-size: 20px;
+    border: none;
+}
+
+.btns > :first-child{
+    background-color: black;
+    color: white;
+    width: 180px;
+}
+
+.btns > :first-child:hover{
+    background-color: #5865f2;
+}
+
+.btns > :last-child{
+    background-color: #2c9779;
+    color: white;
+    width: 160px;
+}
+
+.btns > :last-child:hover{
+    background-color: #37c29B;
+} 
+
+/*Section 2 */
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    /* gap: 5rem; */
+    border-radius: 2rem;
+    padding-top: 0px;
+}
+
+.section2 > img{
+    width: 50%;
+    height:80%;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.section2 > div{
+    width: 50%;
+    height:80%;
+    border-top-right-radius: 1.5em;
+    border-bottom-right-radius: 1.5em;
+    /* padding-left: 0rem;
+    padding-right: 10rem; */
+    float: left;
+    
+   
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    background-color: rgba(142,236,142,0.575);
+}
+
+.section2 h1{
+    font-weight: 100;
+    text-align:start;
+    margin-left:1rem;
+    margin-top:0px;
+    font-family:tahoma;
+    
+}
+
+.section2 p{
+    font-size: 20px;
+    text-align: center;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+
+.section2 > div > div{
+    display:flex;
+    gap: 2rem;
+    margin-top:2rem;
+}
+
+#email {
+    width:190px;
+    font-size:15px;
+    text-align:center;
+    border-radius: 20px;
+    border:none;
+    height:45px;
+    margin-left:2rem;
+    margin-bottom:2rem;
+    
+}
+
+#submit {
+    width:80px;
+    font-size:large;
+    border-radius: 20px;
+    height: 45px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: cursor 1.0s, color 1.0s, background-color 1.0s;
+    position:sticky;
+    margin-right:2rem;
+    
+   
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgba(31, 30, 30, 0.5);
+} */
+
+/* Section 3 */
+.section3 {
+    text-align:center;
+    font-size: large;
+    font-weight:600;   
+}
+
+.app-logs {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    overflow: auto;
+    white-space: nowrap;
+    padding:0.5em;
+}
+
+.app-logs > img{
+    filter: invert(0);
+    height:20px;
+    margin:10px;
+}
+.section3 p{
+    text-align: center;
+}
+
+/* Section 4 */
+.section4{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin:5rem auto;
+}
+
+.section4 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section4 > div{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 1rem;
+    height:80%;
+    gap: 2rem;
+    float: left;
+}
+
+.section4 .card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:30%;
+    gap: 1rem;
+}
+
+.card img{
+    width:100%;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 8px black;
+}
+
+.card img:hover{
+    cursor:pointer;
+    opacity:0.8;
+}
+
+.card p{
+    padding-left:2rem;
+    font-weight: 400;
+}
+
+
+.card h2:hover{
+    color:#0ddb52;
+}
+.section4 button{
+    height:50px;
+    width: 200px;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-color: black;
+}
+/* Section 5 */
+.section5{
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; 
+    justify-content: space-around;
+}
+.section5 >h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    width: 75%;
+}
+
+.section5 span{
+    color: #37c29B;
+    font-weight: 600;
+}
+
+.section5 >div{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    gap: 2rem;
+}
+
+.section5 >div p{
+    width:300px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid gray;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-self: left;
+    font-size:25px;
+    padding: 2rem 3rem;
+    font-weight: 500;
+}
+/* Section 6 */
+.section6 {
+    display: flex;
+    background-color: rgb(246, 249, 249);
+    justify-content: space-around;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin-bottom: 0px;
+    padding-top: 3rem;
+}
+
+.section6 .one6{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items:left;
+    gap: 2rem;
+    float:left;
+    margin-left:3rem;
+}
+
+.one6 h1{
+    font-size:40px;
+    font-weight: 500;
+   
+}
+
+.one6 p{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.one6 button{
+    width: 180px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 2px solid black;
+    border-color: black;
+}
+
+.section6 .two6{
+    width:60%;
+    float: left;
+    
+   
+    
+}
+
+.two6 img{
+    width: 100%;
+    border-radius: 2rem;
+    margin-left: 13rem;
+   
+}
+
+/* Section 7 */
+.section7{
+    display: flex;
+    background-color: rgb(246,249,249);
+    justify-content: space-around;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    margin-top: 0px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section7 .one7{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: left;
+    gap: 2rem;
+    float:left;
+}
+
+.one7 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.one7 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.one7 button{
+    width: 180px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    border-color: black;
+}
+.one7 div{
+    display: flex;
+    gap:1rem;
+}
+
+.one7 >div >:first-child{
+    background-color: #37c29b;
+    color: white;
+    border: none;
+}
+
+.one7 >div >:first-child:hover{
+    background-color: #2c9779;
+}
+
+.section7 .two7{
+    width: 50%;
+    float: left;
+}
+
+.two7 img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+/* Section 8 */
+.section8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+}
+
+.section8 p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section8 h1{
+    font-size: 70px;
+    font-weight: 500;
+    width: 55%;
+    text-align: center;
+}
+
+/* Section 9 */
+.section9 {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 55vh;
+    background-color: rgba(187,211,185, 0.5);
+    border-radius: 3rem;
+}
+
+.section9 div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap:2rem;
+    width:40%;
+    padding-left: 3rem;
+}
+
+.section9 h1 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 0%;
+   
+}
+
+.section9 button{
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    border-color: black;
+}
+
+.section9 img{
+    width: 40%;
+}
+/* Section 10 */
+.section10 {
+    display:flex;
+    justify-content: space-around;
+    gap:2rem;
+    height: 75vh;
+}
+
+.section10 div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4rem;
+    position: relative;
+    padding: 5rem;
+    
+}
+
+.section10 h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.section10 button{
+    width: 100px;
+    height: 35px;
+    border-radius: 3rem;
+    border-color: black;
+}
+.section10 img{
+    position: absolute;
+    width: 200px;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+/* Section 11 */
+.section11 {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+}
+
+.section11>h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding: 3rem 0px;
+}
+
+.section11>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    height: 100%;
+}
+
+.section11 button {
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    border-color: black;
+    margin: 2rem 0px;
+}
+
+.free {
+    width: 25%;
+    background-color: rgba(203, 205, 203, 0.304);
+    border-radius: 2rem;
+    height: 35%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: large;
+}
+
+.pro {
+    width: 25%;
+    background-color: #D9F4D7;
+    border-radius: 2rem;
+    height: 45%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: large;
+}
+.pro span{
+    font-style: italic;
+    color:#0ddb52;
+}
+
+
+
+.enterprise {
+    width: 25%;
+    background-color: rgba(226, 193, 245, 0.389);
+    border-radius: 2rem;
+    height: 55%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: large;
+}
+
+.enterprise span{
+    font-style: italic;
+    color:#9409f1
+}
+
+.section11 li{
+    padding:6px;
+}
+
+.section11  div > h1{
+    margin:8px;
+}
+
+/* Section 12 */
+.section12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0px;
+}
+
+.section12>h1 {
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    padding: 3rem 0px; 
+}
+
+.section12>button {
+    width: 170px;
+    height: 50px;
+    background-color:#37C29B;
+    font-size: 15px;
+    color: white;
+    border: none;
+
+}
+.section12 button:hover{
+    background-color: #2c9779;
+}
+
+/*Footer*/
+footer {
+    border-radius: 2px solid blue;
+    height: 50vh;
+    display: flex;
+  
+}
+
+footer>div:not(:last-child) {
+    border-right: 1px solid rgba(128, 128, 128, 0.438);
+}
+
+footer>div>a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(72, 72, 72);
+}
+footer>div>a:hover{
+    color: #33b28e;
+}
+
+footer h5 {
+    font-weight: bold;
+}
+
+.company,
+.product,
+.community,
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: start;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid rgba(128, 128, 128, 0.438);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.438);
+    text-decoration: none;
+}
+
+.company {
+    width: 20%;
+}
+
+.product {
+    width: 15%;
+}
+
+.community {
+    width: 25%;
+}
+
+.support {
+    width: 30%;
+}
+
+.support>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.support img {
+    width: 75px;
+}
+
+.support span {
+    font-weight: bold;
+}
+.support a{
+    text-decoration:underline;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+
+.copyright {
+    padding: 2rem 0px 2rem 2rem;
+    font-size: 12px;
+    color: rgb(16, 13, 13);
+} 
+
+.copyright span{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color:#176f05;
+    text-shadow: 0.5px 0.5px;
+    
+}
+/* Add these media queries to the end of your CSS file */
+/* Large Desktop (Keep existing styles) */
+/* 1200px and above uses the default styles */
+
+/* Medium Desktop and Laptop */
+@media screen and (max-width: 1199px) {
+    .section5 > h1 {
+        font-size: 60px;
+        width: 90%;
+    }
+    
+    .section8 h1 {
+        font-size: 60px;
+        width: 70%;
+    }
+    
+    .section12 > h1 {
+        font-size: 70px;
+    }
+    
+    .two6 img {
+        margin-left: 5rem;
+    }
+}
+
+/* Small Desktop and Tablet Landscape */
+@media screen and (max-width: 991px) {
+    nav {
+        padding: 0 20px;
+    }
+    
+    .section1 h1 {
+        font-size: 40px;
+    }
+    
+    .section1 span {
+        font-size: 40px;
+    }
+    
+    .btns {
+        gap: 1.5rem;
+    }
+    
+    .btns button {
+        height: 45px;
+        font-size: 18px;
+    }
+    
+    /* Switch to column layout for section 2 */
+    .section2 {
+        flex-direction: column;
+        height: auto;
+        padding: 0rem 0;
+    }
+    
+    .section2 > img {
+        width: 90%;
+        height: auto;
+        border-radius: 2em 2em 0 0;
+    }
+    
+    .section2 > div {
+        width: 90%;
+        border-radius: 0 0 2em 2em;
+        padding: 0rem;
+        align-items: center;
+    }
+    
+    /* Section 4 cards in column on smaller screens */
+    .section4 {
+        height: auto;
+    }
+    
+    .section4 > div {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .section4 .card {
+        width: 90%;
+    }
+    
+    /* Adjust section 5 */
+    .section5 {
+        height: auto;
+        padding: 4rem 0;
+    }
+    
+    .section5 > h1 {
+        font-size: 50px;
+    }
+    
+    .section5 > div {
+        flex-direction: column;
+    }
+    
+    /* Adjust section 6 and 7 */
+    .section6, .section7 {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section6 .one6, .section7 .one7 {
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .section6 .two6, .section7 .two7 {
+        width: 90%;
+    }
+    
+    .two6 img {
+        margin-left: 0;
+    }
+    
+    /* Section 8 */
+    .section8 h1 {
+        font-size: 50px;
+        width: 90%;
+    }
+    
+    /* Section 9 */
+    .section9 {
+        flex-direction: column;
+        height: auto;
+        padding: 3rem 0;
+    }
+    
+    .section9 div {
+        width: 90%;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .section9 img {
+        width: 80%;
+    }
+    
+    /* Section 10 */
+    .section10 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 2rem;
+    }
+    
+    .section10 div {
+        width: 90%;
+    }
+    
+    /* Section 11 */
+    .section11 {
+        height: auto;
+    }
+    
+    .section11 > div {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .free, .pro, .enterprise {
+        width: 80%;
+    }
+    
+    /* Section 12 */
+    .section12 > h1 {
+        font-size: 60px;
+    }
+    
+    /* Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .company, .product, .community, .support {
+        width: 100%;
+        border-right: none;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+/* Tablet Portrait and Mobile Landscape */
+@media screen and (max-width: 767px) {
+    /* Header/Nav */
+    nav {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    
+    nav > ul {
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+    
+    nav li {
+        padding: 10px 15px;
+    }
+    
+    .section1 h1 {
+        font-size: 30px;
+    }
+    
+    .section1 span {
+        font-size: 30px;
+    }
+    
+    .btns {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    /* App logos */
+    .app-logs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .app-logs > img {
+        margin: 15px;
+    }
+    
+    /* Section 5 */
+    .section5 > h1 {
+        font-size: 35px;
+    }
+    
+    .section5 > div p {
+        width: 200px;
+        font-size: 20px;
+        padding: 1.5rem 2rem;
+    }
+    
+    /* Section headers */
+    .section6 .one6 h1, .section7 .one7 h1 {
+        font-size: 30px;
+    }
+    
+    .section8 h1 {
+        font-size: 35px;
+    }
+    
+    .section9 h1 {
+        font-size: 25px;
+    }
+    
+    .section10 h1 {
+        font-size: 30px;
+    }
+    
+    .section12 > h1 {
+        font-size: 40px;
+    }
+    
+    /* Section 7 buttons */
+    .one7 div {
+        flex-direction: column;
+    }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 479px) {
+    #fixed {
+        width: 140px;
+        height: 35px;
+        font-size: 13px;
+    }
+    
+    .section1 h1 {
+        font-size: 25px;
+    }
+    
+    .section1 span {
+        font-size: 25px;
+    }
+    
+    .btns button {
+        width: 180px;
+    }
+    
+    .section2 h1 {
+        font-size: 24px;
+    }
+    
+    .section2 p {
+        font-size: 16px;
+    }
+    
+    #email, #submit {
+        height: 40px;
+    }
+    
+    .section4 h1 {
+        font-size: 35px;
+    }
+    
+    .section5 > h1 {
+        font-size: 28px;
+    }
+    
+    .section5 > div p {
+        width: 180px;
+        font-size: 16px;
+        padding: 1rem 1.5rem;
+    }
+    
+    .section6 .one6 p, .section7 .one7 p {
+        font-size: 16px;
+    }
+    
+    .section8 h1 {
+        font-size: 28px;
+    }
+    
+    .section8 p {
+        font-size: 16px;
+    }
+    
+    .section10 div {
+        padding: 2rem;
+    }
+    
+    .section10 img {
+        width: 120px;
+    }
+    
+    .section11 > h1 {
+        font-size: 35px;
+    }
+    
+    .free, .pro, .enterprise {
+        width: 90%;
+        font-size: 16px;
+    }
+    
+    .section12 > h1 {
+        font-size: 30px;
+    }
+    
+    .section12 > button {
+        width: 180px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+/* Fix for some specific issues */
+@media screen and (max-width: 375px) {
+    nav li {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+    
+    .section2 > div > div {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #email {
+        width: 90%;
+        margin-left: 0;
+    }
+    
+    #submit {
+        width: 90%;
+    }
+}
+
+
